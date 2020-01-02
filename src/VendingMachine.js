@@ -17,6 +17,12 @@ class VendingMachine extends Component {
         <Link exact to="/soda">
           Soda
         </Link>
+        <Link exact to="/chips">
+          Chips
+        </Link>
+        <Link exact to="/sardines">
+          Sardines
+        </Link>
       </div>
     );
   }

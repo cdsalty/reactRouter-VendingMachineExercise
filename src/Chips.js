@@ -28,18 +28,18 @@ class Chips extends Component {
       <img
         key={i}
         src={chipsImg}
-        className='bag'
+        className="bag"
         style={{ top: `${bag.y}px`, left: `${bag.x}px` }}
         alt="bag of lay's chips"
       />
     ));
     return (
-      <div className='Chips'>
+      <div className="Chips">
         <Message>
           <h1>bags eaten: {this.state.bags.length}</h1>
           <button onClick={this.handleClick}>nom nom nom</button>
           <h1>
-            <Link to='/'>Go Back</Link>
+            <Link to="/">Go Back</Link>
           </h1>
         </Message>
         {bags}
